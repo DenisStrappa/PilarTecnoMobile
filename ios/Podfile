@@ -27,4 +27,18 @@ target 'PilarTecnoMobile' do
     react_native_post_install(installer)
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
+
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  # Agregue estas lineas
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+ #  pod 'Firebase/Storage'
+  # add pods for any other desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
+
+  # React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  
 end

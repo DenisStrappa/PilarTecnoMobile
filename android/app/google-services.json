@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "754931594100",
+    "project_id": "pilartecnomobile",
+    "storage_bucket": "pilartecnomobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754931594100:android:3f0654c7b141ebc2bcb221",
+        "android_client_info": {
+          "package_name": "com.pilartecnomobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754931594100-nn0ipvshdg2iks4mjb8s93b3phttqo45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pilartecnomobile",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "754931594100-7p0f6ttpmksccrllrcbmt6tmlmiot04a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA696RJyfexY6x2TNlmqjCzh5zLEcla7vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754931594100-7p0f6ttpmksccrllrcbmt6tmlmiot04a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "754931594100-279o7f3j9bbik1ta3tpdu5dls9vehmkt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.PilarTecnoMobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
